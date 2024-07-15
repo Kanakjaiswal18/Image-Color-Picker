@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Color Picker</title>
+    <style>
+        #color-info {
+            margin-top: 20px;
+        }
+        .color-item {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .color-box {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Color Picker</h1>
+    <input type="file" id="image-upload" accept="image/*">
+    <br><br>
+    <canvas id="image-canvas" class="crosshair"></canvas>
+    <div id="color-info"></div>
+    <script src="app.js"></script>
+</body>
+</html>
+    
