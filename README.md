@@ -3,7 +3,7 @@
 The code is of a simple web application that allows users to upload an image, click on any point within the image, and get the RGB color values of that point. The selected colors are displayed in a list with their RGB values and a box showing the color.
 
 ## Features
-- Upload an image file
+- Click upload and upload any image file 
 - Click on any point in the image to get the RGB color values
 - Display the selected colors in a list with their RGB values and a color box
 
